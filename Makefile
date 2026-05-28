@@ -6,7 +6,7 @@ PROCESOS_EJEMPLOS = codigo01 codigo02 codigo03a codigo03b codigo04 codigo06 codi
 PROCESOS_EJERCICIOS = codigo05 codigo08 codigo14
 
 # Lista de ejecutables de hilos
-HILOS_EJEMPLOS = codigo14 codigo15 codigo16 codigo17
+HILOS_EJEMPLOS = codigo15 codigo16 codigo17 codigo18
 HILOS_EJERCICIOS = 
 
 # Objetivos virtuales
