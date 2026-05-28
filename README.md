@@ -12,7 +12,7 @@ Todos los ejemplos de código se encuentran en https://labdcc.fceia.unr.edu.ar/~
 
 Todos los ejercicios están pensados para ser ejecutados en linux (o macOS). Si usas windows, te recomiendo usar WSL (Windows Subsystem for Linux), una maquina virtual o github codespaces. 
 
-También se puede realizar una copia de este repositorio en [GitHub](hhttps://github.com/JoaquinCaporalini/IPS-SistemasOperativos-Lab2) y trabajar sobre ella.
+También se puede realizar una copia del repositorio en [GitHub](https://github.com/JoaquinCaporalini/IPS-SistemasOperativos-Lab2) y trabajar sobre ella.
 
 # Compilado y ejecución
 
