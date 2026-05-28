@@ -20,7 +20,8 @@ void mostrarArreglo(int* arr, int cant){
     }
 }
 
-void mostrarArgumentos(char* argv[]){
+void mostrarArgumentos(int argc, char* argv[]){
+    printf(" argc = %d\n", argc);
     for(int i=0;argv[i]!=NULL;i++){
         printf("%s\n",argv[i]);
     }
@@ -53,7 +54,7 @@ int main(int argc, char *argv[]){
     
     leer10lineas(archivo);
     
-    mostrarArgumentos(argv);
+    mostrarArgumentos(argc, argv);
 
     mostrarArreglo(arreglo, CANT);
     int rd = rand() % CANT;
