@@ -21,13 +21,25 @@ Para compilar y ejecutar los programas se puede usar makefile de la siguiente ma
 make
 ```
 
-Esto compilará todos los programas. Si se desea compilar un programa en particular se puede hacer de la siguiente manera:
+Esto compilará todos los programas (incluidos los ejercicios, que no están implementados aún). Si se desea compilar un programa en particular se puede hacer de la siguiente manera:
 
 ```bash
 make codigo01
 ```
 
-Esto compilará solo el programa codigo01. 
+Esto compilará solo el programa codigo01. Si se desea compilar solo los ejemplos de procesos se puede hacer ejecutando solo la primer línea y si se ejecuta la segunda línea se compilan los ejemplos de hilos.
+
+```bash
+make procesos_ejemplos
+make hilos_ejemplos
+```
+
+Si se desea compilar solo los ejercicios se puede hacer de la siguiente manera (distinguiendo entre procesos y hilos):
+
+```bash
+make procesos_ejercicios
+make hilos_ejercicios
+```
 
 Si se desea ejecutar un programa en particular se puede hacer de la siguiente manera:
 
@@ -35,6 +47,14 @@ Si se desea ejecutar un programa en particular se puede hacer de la siguiente ma
 ./codigo01
 ```
 
+para eliminar los programas compilados se puede hacer de la siguiente manera:
+
+```bash
+make clean
+```
+
+
+
 ## Ejercicios
 
-Los códigos [08](codigo08.c) y [14](codigo14.c) deben ser completados como parte del laboratorio.
+Los códigos [05](codigo05.c), [08](codigo08.c) y [14](codigo14.c) deben ser completados como parte del laboratorio.

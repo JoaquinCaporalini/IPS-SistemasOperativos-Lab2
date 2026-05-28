@@ -1,42 +1,47 @@
-all: codigo01 codigo02 codigo03 codigo04 codigo06 codigo07 codigo08 codigo09 codigo10 codigo11 codigo12 codigo13
+CC = gcc
+CFLAGS = -Wall -Wextra -pthread
 
-codigo01:codigo01.c
-	gcc codigo01.c -o codigo01
-	
-codigo02:codigo02.c
-	gcc codigo02.c -o codigo02
+# Lista de ejecutables de procesos
+PROCESOS_EJEMPLOS = codigo01 codigo02 codigo03a codigo03b codigo04 codigo06 codigo07 codigo08 codigo09a codigo09b codigo10 codigo11 codigo12 codigo13
+PROCESOS_EJERCICIOS = codigo05 codigo08 codigo14
 
-codigo03:codigo03a.c codigo03b.c
-	gcc codigo03a.c -o codigo03a
-	gcc codigo03b.c -o codigo03b
+# Lista de ejecutables de hilos
+HILOS_EJEMPLOS = codigo14 codigo15 codigo16 codigo17
+HILOS_EJERCICIOS = 
 
-codigo04:codigo04.c
-	gcc codigo04.c -o codigo04
+# Objetivos virtuales
+.PHONY: all procesos hilos clean
 
-codigo05:codigo05.c
-	gcc codigo05.c -o codigo05
+all: procesos hilos
 
-codigo06:codigo06.c
-	gcc codigo06.c -o codigo06
+# ------------------------------------------------------- #
 
-codigo07:codigo07.c
-	gcc codigo07.c -o codigo07
+# Grupo de Procesos
+procesos: procesos_ejemplos procesos_ejercicios
 
-codigo08:codigo08.c
-	gcc codigo08.c -o codigo08
+# Procesos ejemplos
+procesos_ejemplos: $(PROCESOS_EJEMPLOS)
 
-codigo09:codigo09a.c codigo09b.c
-	gcc codigo09a.c -o codigo09a
-	gcc codigo09b.c -o codigo09b
+# Procesos ejercicios
+procesos_ejercicios: $(PROCESOS_EJERCICIOS)
 
-codigo10:codigo10.c
-	gcc codigo10.c -o codigo10
+# ------------------------------------------------------- #
 
-codigo11:codigo11.c
-	gcc codigo11.c -o codigo11
+# Grupo de Hilos (sección para ejercicios de hilos)
+hilos: hilos_ejemplos hilos_ejercicios
 
-codigo12:codigo12.c
-	gcc codigo12.c -o codigo12
+# Hilos ejemplos
+hilos_ejemplos: $(HILOS_EJEMPLOS)
 
-codigo13:codigo13.c
-	gcc codigo13.c -o codigo13
+# Hilos ejercicios
+hilos_ejercicios: $(HILOS_EJERCICIOS)
+
+# ------------------------------------------------------- #
+
+# Regla de patrón genérica para compilar cualquier ejecutable a partir de su .c homónimo
+%: %.c
+	$(CC) $(CFLAGS) $< -o $@
+
+# Regla para limpiar todos los ejecutables generados
+clean:
+	rm -f $(PROCESOS_EJEMPLOS) $(PROCESOS_EJERCICIOS) $(HILOS_EJEMPLOS) $(HILOS_EJERCICIOS)
