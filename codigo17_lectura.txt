@@ -1,0 +1,64 @@
+Hola, este es un archivo de texto que se utiliza para 
+probar la lectura y escritura en archivos.
+El contenido no es relevante para el ejercicio.
+Se espera que los hilos lean el archivo y escriban en 
+la salida estandar y en otro archivo de texto.
+Es tan poco relevante que en cualquier momento podría
+pensar en cambiar su contenido. Incluso, como en mi caso,
+podría estar escribiendolo con inteligencia artificial.
+Hola, este es un archivo de texto que se utiliza para 
+probar la lectura y escritura en archivos.
+El contenido no es relevante para el ejercicio.
+Se espera que los hilos lean el archivo y escriban en 
+la salida estandar y en otro archivo de texto.
+Es tan poco relevante que en cualquier momento podría
+pensar en cambiar su contenido. Incluso, como en mi caso,
+podría estar escribiendolo con inteligencia artificial.
+Hola, este es un archivo de texto que se utiliza para 
+probar la lectura y escritura en archivos.
+El contenido no es relevante para el ejercicio.
+Se espera que los hilos lean el archivo y escriban en 
+la salida estandar y en otro archivo de texto.
+Es tan poco relevante que en cualquier momento podría
+pensar en cambiar su contenido. Incluso, como en mi caso,
+podría estar escribiendolo con inteligencia artificial.
+Hola, este es un archivo de texto que se utiliza para 
+probar la lectura y escritura en archivos.
+El contenido no es relevante para el ejercicio.
+Se espera que los hilos lean el archivo y escriban en 
+la salida estandar y en otro archivo de texto.
+Es tan poco relevante que en cualquier momento podría
+pensar en cambiar su contenido. Incluso, como en mi caso,
+podría estar escribiendolo con inteligencia artificial.
+Hola, este es un archivo de texto que se utiliza para 
+probar la lectura y escritura en archivos.
+El contenido no es relevante para el ejercicio.
+Se espera que los hilos lean el archivo y escriban en 
+la salida estandar y en otro archivo de texto.
+Es tan poco relevante que en cualquier momento podría
+pensar en cambiar su contenido. Incluso, como en mi caso,
+podría estar escribiendolo con inteligencia artificial.
+Hola, este es un archivo de texto que se utiliza para 
+probar la lectura y escritura en archivos.
+El contenido no es relevante para el ejercicio.
+Se espera que los hilos lean el archivo y escriban en 
+la salida estandar y en otro archivo de texto.
+Es tan poco relevante que en cualquier momento podría
+pensar en cambiar su contenido. Incluso, como en mi caso,
+podría estar escribiendolo con inteligencia artificial.
+Hola, este es un archivo de texto que se utiliza para 
+probar la lectura y escritura en archivos.
+El contenido no es relevante para el ejercicio.
+Se espera que los hilos lean el archivo y escriban en 
+la salida estandar y en otro archivo de texto.
+Es tan poco relevante que en cualquier momento podría
+pensar en cambiar su contenido. Incluso, como en mi caso,
+podría estar escribiendolo con inteligencia artificial.
+Hola, este es un archivo de texto que se utiliza para 
+probar la lectura y escritura en archivos.
+El contenido no es relevante para el ejercicio.
+Se espera que los hilos lean el archivo y escriban en 
+la salida estandar y en otro archivo de texto.
+Es tan poco relevante que en cualquier momento podría
+pensar en cambiar su contenido. Incluso, como en mi caso,
+podría estar escribiendolo con inteligencia artificial.
